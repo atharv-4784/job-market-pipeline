@@ -1,335 +1,343 @@
 {
     "__CLASS__": "Adzuna::API::Response::JobSearchResults",
+    "count": 821902,
+    "mean": 42473.63,
     "results": [
         {
-            "contract_time": "full_time",
-            "title": "Occupational Therapist",
-            "created": "2026-06-01T00:52:42Z",
-            "salary_is_predicted": "0",
-            "salary_min": 0,
-            "description": "Are you looking for an employer who can offer you opportunities for growth and development in your occupational therapy career- All whilst working within a friendly multidisciplinary team in a rewarding education setting? Do you want to have opportunities to participate in research projects, special interest groups and form part of a wider occupational therapy network that meets regularly for training & development? Do you want to have flexibility and be able to work creatively to deliver speci\u2026",
-            "id": "5746793947",
-            "company": {
-                "__CLASS__": "Adzuna::API::Response::Company",
-                "display_name": "Outcomes First Group"
-            },
-            "contract_type": "permanent",
             "category": {
-                "label": "Healthcare & Nursing Jobs",
-                "__CLASS__": "Adzuna::API::Response::Category",
-                "tag": "healthcare-nursing-jobs"
+                "tag": "teaching-jobs",
+                "label": "Teaching Jobs",
+                "__CLASS__": "Adzuna::API::Response::Category"
             },
-            "location": {
-                "display_name": "Allington, Maidstone",
-                "area": [
-                    "UK",
-                    "South East England",
-                    "Kent",
-                    "Maidstone",
-                    "Allington"
-                ],
-                "__CLASS__": "Adzuna::API::Response::Location"
-            },
-            "redirect_url": "https://www.adzuna.co.uk/jobs/land/ad/5746793947?se=anKFp_lj8RG0WuC85cdEyQ&utm_medium=api&utm_source=f7ef3cac&v=F8A5F6F8EE2732F07B6FA77AF7D948F8EEC0B2B8",
-            "longitude": 0.50401,
-            "adref": "eyJhbGciOiJIUzI1NiJ9.eyJzIjoiYW5LRnBfbGo4UkcwV3VDODVjZEV5USIsImkiOiI1NzQ2NzkzOTQ3In0.8g1ZmPqZBdStb5zsXzcQFaFXvB1bypykPA5oZkXzppA",
-            "latitude": 51.278244,
-            "salary_max": 53200,
-            "__CLASS__": "Adzuna::API::Response::Job"
-        },
-        {
-            "adref": "eyJhbGciOiJIUzI1NiJ9.eyJzIjoiYW5LRnBfbGo4UkcwV3VDODVjZEV5USIsImkiOiI1NzQ3MTQ0MzA5In0.LKFw4kQjoJBytSJg7EgYxE4yDUsW_sFeVKxBVqZkQgY",
-            "longitude": -1.099804,
-            "__CLASS__": "Adzuna::API::Response::Job",
-            "salary_max": 30992,
-            "latitude": 51.428224,
-            "company": {
-                "__CLASS__": "Adzuna::API::Response::Company",
-                "display_name": "Busy Bees"
-            },
-            "description": "Role Overview:  Join Our Brand-New Nursery in Binfield!  Are you ready to be part of something special? Busy Bees is opening a state-of-the-art, three-storey nursery in Binfield and we're looking for passionate Level 3 Nursery Practitioners to join our team! This modern, high-quality setting will be filled with laughter, learning, and limitless opportunities \u2014all in a warm, nurturing environment designed to give our children the best start in life . With space for up to 75 children , it's a pla\u2026",
-            "id": "5747144309",
-            "salary_min": 30992,
+            "salary_min": 0,
             "salary_is_predicted": "0",
-            "created": "2026-06-01T07:20:28Z",
-            "title": "Nursery Practitioner Level 3",
-            "contract_time": "full_time",
-            "redirect_url": "https://www.adzuna.co.uk/jobs/land/ad/5747144309?se=anKFp_lj8RG0WuC85cdEyQ&utm_medium=api&utm_source=f7ef3cac&v=24631A49BA9BC86E9BCC20BCADE398A9D381C68F",
+            "description": "We work smarter so that you can enjoy the things that matter outside of work Job Title: Pre Formal Teacher Location: Heath Farm School, Ashford, Kent, TN27 0AX Hours: 35 hours per week | Monday to Friday Salary: Up to \u00a340,000 per annum (depending on experience, not pro rata) Contract: Fixed term - March 2027 | Term Time Only Start: September 2026 UK applicants only \u2013 no sponsorship available About the Role Are you passionate about creating meaningful learning experiences for children with profo\u2026",
+            "redirect_url": "https://www.adzuna.co.uk/jobs/land/ad/5749070028?se=th0_vglk8RGawqwhXRH3Xw&utm_medium=api&utm_source=f7ef3cac&v=E214AFBC5D8A4B3EF5C93E192E27F36EC86232F4",
             "location": {
-                "display_name": "Englefield, Reading",
+                "display_name": "Paddlesworth, Folkestone",
                 "__CLASS__": "Adzuna::API::Response::Location",
                 "area": [
                     "UK",
                     "South East England",
-                    "Berkshire",
-                    "Reading",
-                    "Englefield"
+                    "Kent",
+                    "Folkestone",
+                    "Paddlesworth"
                 ]
             },
-            "category": {
-                "__CLASS__": "Adzuna::API::Response::Category",
-                "label": "Teaching Jobs",
-                "tag": "teaching-jobs"
-            }
+            "salary_max": 40000,
+            "adref": "eyJhbGciOiJIUzI1NiJ9.eyJzIjoidGgwX3ZnbGs4Ukdhd3F3aFhSSDNYdyIsImkiOiI1NzQ5MDcwMDI4In0.MaXXD8v1VHmxuaSTtEZELZHGYWr_BWQIryhhBrsB_N0",
+            "__CLASS__": "Adzuna::API::Response::Job",
+            "contract_type": "contract",
+            "company": {
+                "__CLASS__": "Adzuna::API::Response::Company",
+                "display_name": "Outcomes First Group"
+            },
+            "created": "2026-06-02T12:33:13Z",
+            "id": "5749070028",
+            "title": "Pre Formal Teacher",
+            "latitude": 51.115588,
+            "longitude": 1.149255
         },
         {
-            "created": "2026-06-01T00:52:59Z",
-            "salary_is_predicted": "0",
-            "salary_min": 0,
-            "id": "5746794089",
-            "description": "Headteacher (All Ages) Location: Various UK locations (national opportunities aligned with growth plans) Contract: Full-time, Permanent Salary: Up to \u00a385,000 per annum (dependent on experience) Shape the future of independent education Outcomes First Group is a leading provider of world-class education. We believe every child can flourish in an environment intentionally crafted for their success and wellbeing. Exceptional education starts by knowing every pupil well enough to tailor teaching to\u2026",
-            "company": {
-                "display_name": "Outcomes First Group",
-                "__CLASS__": "Adzuna::API::Response::Company"
-            },
+            "salary_max": 39000,
+            "adref": "eyJhbGciOiJIUzI1NiJ9.eyJpIjoiNTc1NzIxNTcwMSIsInMiOiJ0aDBfdmdsazhSR2F3cXdoWFJIM1h3In0.1JgSmdKZLwXLQLsFerhO580HSpflO5hgjf2s-itJn9s",
+            "__CLASS__": "Adzuna::API::Response::Job",
             "contract_type": "permanent",
-            "contract_time": "full_time",
-            "title": "Headteacher",
-            "adref": "eyJhbGciOiJIUzI1NiJ9.eyJpIjoiNTc0Njc5NDA4OSIsInMiOiJhbktGcF9sajhSRzBXdUM4NWNkRXlRIn0.g8v3L8DTraMl8DqpAVZcsXUnIbwnwr-cFjoiZHOyZE0",
+            "company": {
+                "__CLASS__": "Adzuna::API::Response::Company",
+                "display_name": "Outcomes First Group"
+            },
+            "id": "5757215701",
+            "created": "2026-06-09T12:51:34Z",
+            "title": "SEN Teacher",
+            "latitude": 50.864964,
+            "longitude": -0.815106,
             "category": {
                 "tag": "teaching-jobs",
                 "__CLASS__": "Adzuna::API::Response::Category",
                 "label": "Teaching Jobs"
             },
-            "location": {
-                "display_name": "London, UK",
-                "area": [
-                    "UK",
-                    "London"
-                ],
-                "__CLASS__": "Adzuna::API::Response::Location"
-            },
-            "__CLASS__": "Adzuna::API::Response::Job",
-            "redirect_url": "https://www.adzuna.co.uk/jobs/land/ad/5746794089?se=anKFp_lj8RG0WuC85cdEyQ&utm_medium=api&utm_source=f7ef3cac&v=01B5A19A254D1A1BDF5BB099B2027009260EE3DA",
-            "salary_max": 85000
-        },
-        {
-            "id": "5707341925",
-            "description": "Interim Planned Works Surveyor Opportunity - Gloucestershire Your new company This is your opportunity to join a forward-thinking, community-focused housing provider committed to delivering safe, sustainable, and high-quality homes for residents across the wider Gloucestershire region. Your new employer has an ambitious investment programme and a strong focus on customer satisfaction, delivered by a passionate team, valuing innovation, collaboration, and continuous improvement. Your new role Yo\u2026",
-            "company": {
-                "__CLASS__": "Adzuna::API::Response::Company",
-                "display_name": "Hays"
-            },
-            "created": "2026-04-22T19:07:34Z",
-            "salary_is_predicted": "1",
-            "salary_min": 55891.88,
-            "adref": "eyJhbGciOiJIUzI1NiJ9.eyJzIjoiYW5LRnBfbGo4UkcwV3VDODVjZEV5USIsImkiOiI1NzA3MzQxOTI1In0.0edyYdo2ha8CfsdYTgUsrPCWisQ_SbxPOq6uZeXMiQs",
-            "title": "Interim Planned Works Surveyor - Gloucestershire",
+            "salary_min": 39000,
+            "description": "At OFG we believe in creating a better work life balance! Role: SEN Teacher Location: Jubilee School, Waterlooville PO7 7RE Salary: \u00a339,000 per annum ( not pro rata ) Hours: 40 hours per week | Monday to Friday | 8.30am \u2013 4.30pm Contract: Permanent | Term Time Only Start: September 2026 UK applicants only \u2013 no sponsorship available About the Role Are you a passionate, resilient and creative educator who believes every young person deserves the chance to thrive? Do you want to work in a setting \u2026",
+            "salary_is_predicted": "0",
+            "redirect_url": "https://www.adzuna.co.uk/jobs/land/ad/5757215701?se=th0_vglk8RGawqwhXRH3Xw&utm_medium=api&utm_source=f7ef3cac&v=10A0C0FA62A2D23BC7547B41479FD158A359E099",
             "location": {
                 "__CLASS__": "Adzuna::API::Response::Location",
+                "display_name": "West Stoke, Chichester",
                 "area": [
-                    "UK"
-                ],
-                "display_name": "UK"
-            },
-            "__CLASS__": "Adzuna::API::Response::Job",
-            "salary_max": 55891.88,
-            "redirect_url": "https://www.adzuna.co.uk/jobs/land/ad/5707341925?se=anKFp_lj8RG0WuC85cdEyQ&utm_medium=api&utm_source=f7ef3cac&v=ABE5FDCF55EC52000E032BA6F2F81CE187E52B3D",
-            "category": {
-                "tag": "trade-construction-jobs",
-                "label": "Trade & Construction Jobs",
-                "__CLASS__": "Adzuna::API::Response::Category"
+                    "UK",
+                    "South East England",
+                    "West Sussex",
+                    "Chichester",
+                    "West Stoke"
+                ]
             }
         },
         {
-            "location": {
-                "area": [
-                    "UK",
-                    "Northern Ireland",
-                    "Ards",
-                    "Newtownards"
-                ],
-                "__CLASS__": "Adzuna::API::Response::Location",
-                "display_name": "Newtownards, Ards"
-            },
-            "redirect_url": "https://www.adzuna.co.uk/jobs/land/ad/5643439077?se=anKFp_lj8RG0WuC85cdEyQ&utm_medium=api&utm_source=f7ef3cac&v=1E7AFE81FDA481B98BB850FF1463E16C01EF4287",
-            "category": {
-                "tag": "trade-construction-jobs",
-                "__CLASS__": "Adzuna::API::Response::Category",
-                "label": "Trade & Construction Jobs"
-            },
-            "id": "5643439077",
-            "description": "Project Manager (Asset Management / Planned Maintenance) required by NIHE in Newtownards Your new company The services of Hays have been retained by our client, the Northern Ireland Housing Executive, to recruit a Project Manager (Asset Management / Planned Maintenance) on an ongoing temporary contract basis to work from their office in Newtownards. Your new role Managing Multi-Planned Maintenance Projects. Managing in-house construction professionals, including Clerk of Works and Mechanical & \u2026",
-            "contract_type": "contract",
             "company": {
-                "__CLASS__": "Adzuna::API::Response::Company",
-                "display_name": "Hays"
+                "display_name": "RAC",
+                "__CLASS__": "Adzuna::API::Response::Company"
             },
-            "created": "2026-02-24T10:27:15Z",
-            "salary_min": 45539.29,
-            "salary_is_predicted": "1",
-            "title": "Project Manager (NIHE Planned Maintenance)",
-            "latitude": 54.595001,
             "__CLASS__": "Adzuna::API::Response::Job",
-            "salary_max": 45539.29,
-            "adref": "eyJhbGciOiJIUzI1NiJ9.eyJpIjoiNTY0MzQzOTA3NyIsInMiOiJhbktGcF9sajhSRzBXdUM4NWNkRXlRIn0.mxj0nfYttub81ejk_tz5TImuqdrGGf_-TxKjLiLPt-o",
-            "longitude": -5.70311
-        },
-        {
-            "adref": "eyJhbGciOiJIUzI1NiJ9.eyJzIjoiYW5LRnBfbGo4UkcwV3VDODVjZEV5USIsImkiOiI1NjYxNjM3MTYxIn0.1XRvcDPAnpu2VbX4aGdGD61rIwOVpPGDRpucqO1DeHM",
-            "longitude": -1.944877,
+            "adref": "eyJhbGciOiJIUzI1NiJ9.eyJpIjoiNTY2MTYzNzE4NSIsInMiOiJ0aDBfdmdsazhSR2F3cXdoWFJIM1h3In0.6x0vRODhrBDbxAh1X56LxRNkHLO9j7cN8FQM3e0Fo2k",
             "salary_max": 52000,
-            "__CLASS__": "Adzuna::API::Response::Job",
-            "latitude": 50.72522,
-            "company": {
-                "__CLASS__": "Adzuna::API::Response::Company",
-                "display_name": "RAC"
-            },
-            "description": "Join the RAC as a Mobile Vehicle Technician in our SMR Division - a new era of mobile repair. A competitive base salary of \u00a340,178, with on-target earnings of up to \u00a352,000 A guaranteed overtime option to increase your base salary to \u00a344,385, plus additional overtime and bonus opportunities 40 hours per week, with core hours from 8:30 am to 5:00 pm, and 1 in 4 Saturdays. A Different Kind of RAC Role: Welcome to SMR The RAC is known for roadside rescue - but this isn\u2019t that. Our Service, Mainten\u2026",
-            "id": "5661637161",
-            "salary_min": 0,
-            "salary_is_predicted": "0",
-            "created": "2026-03-11T12:09:05Z",
-            "title": "Mobile Vehicle Technician - Bridgwater",
+            "longitude": -2.994932,
+            "latitude": 51.244769,
             "contract_time": "full_time",
-            "redirect_url": "https://www.adzuna.co.uk/jobs/land/ad/5661637161?se=anKFp_lj8RG0WuC85cdEyQ&utm_medium=api&utm_source=f7ef3cac&v=3407C526F5DF61DB7531A78EA70EB0DFC142D36A",
+            "title": "Mobile Mechanic",
+            "created": "2026-03-11T12:09:07Z",
+            "id": "5661637185",
+            "category": {
+                "tag": "engineering-jobs",
+                "label": "Engineering Jobs",
+                "__CLASS__": "Adzuna::API::Response::Category"
+            },
+            "salary_min": 0,
             "location": {
-                "display_name": "Parkstone, Poole",
+                "__CLASS__": "Adzuna::API::Response::Location",
+                "display_name": "Berrow, Burnham-On-Sea",
                 "area": [
                     "UK",
                     "South West England",
-                    "Dorset",
-                    "Poole",
-                    "Parkstone"
-                ],
-                "__CLASS__": "Adzuna::API::Response::Location"
-            },
-            "category": {
-                "tag": "engineering-jobs",
-                "__CLASS__": "Adzuna::API::Response::Category",
-                "label": "Engineering Jobs"
-            }
-        },
-        {
-            "location": {
-                "display_name": "Belfast, Northern Ireland",
-                "__CLASS__": "Adzuna::API::Response::Location",
-                "area": [
-                    "UK",
-                    "Northern Ireland",
-                    "Belfast"
+                    "Somerset",
+                    "Burnham-On-Sea",
+                    "Berrow"
                 ]
             },
-            "redirect_url": "https://www.adzuna.co.uk/jobs/land/ad/5757065526?se=anKFp_lj8RG0WuC85cdEyQ&utm_medium=api&utm_source=f7ef3cac&v=9F881BBCA337378E476628D182689F1D2DE0AD86",
+            "redirect_url": "https://www.adzuna.co.uk/jobs/land/ad/5661637185?se=th0_vglk8RGawqwhXRH3Xw&utm_medium=api&utm_source=f7ef3cac&v=0649747BFCA3D0D3D7D59056B243C3BAE32FDC58",
+            "salary_is_predicted": "0",
+            "description": "Join the RAC as a Mobile Vehicle Technician in our SMR Division - a new era of mobile repair. A competitive base salary of \u00a340,178, with on-target earnings of up to \u00a352,000 A guaranteed overtime option to increase your base salary to \u00a344,385, plus additional overtime and bonus opportunities 40 hours per week, with core hours from 8:30 am to 5:00 pm, and 1 in 4 Saturdays. A Different Kind of RAC Role: Welcome to SMR The RAC is known for roadside rescue - but this isn\u2019t that. Our Service, Mainten\u2026"
+        },
+        {
+            "company": {
+                "__CLASS__": "Adzuna::API::Response::Company",
+                "display_name": "Outcomes First Group"
+            },
+            "adref": "eyJhbGciOiJIUzI1NiJ9.eyJpIjoiNTczODE3Njk5OSIsInMiOiJ0aDBfdmdsazhSR2F3cXdoWFJIM1h3In0.yS5KewrG_RHDE-3RWamW_4cvwY7WcvpeCVS6DVJHqp8",
             "__CLASS__": "Adzuna::API::Response::Job",
-            "salary_max": 50508.89,
+            "contract_type": "permanent",
+            "salary_max": 53200,
+            "longitude": -3.746705,
+            "contract_time": "full_time",
+            "latitude": 50.525176,
+            "title": "Occupational Therapist",
+            "created": "2026-05-23T01:09:19Z",
+            "id": "5738176999",
+            "category": {
+                "__CLASS__": "Adzuna::API::Response::Category",
+                "label": "Healthcare & Nursing Jobs",
+                "tag": "healthcare-nursing-jobs"
+            },
+            "salary_min": 0,
+            "location": {
+                "area": [
+                    "UK",
+                    "South West England",
+                    "Devon",
+                    "Newton Abbot",
+                    "Ashburton",
+                    "Broadpark"
+                ],
+                "display_name": "Broadpark, Ashburton",
+                "__CLASS__": "Adzuna::API::Response::Location"
+            },
+            "redirect_url": "https://www.adzuna.co.uk/jobs/land/ad/5738176999?se=th0_vglk8RGawqwhXRH3Xw&utm_medium=api&utm_source=f7ef3cac&v=373FEF445BB58E59DA238D62C46529AE1BAF709C",
+            "description": "Are you looking for an employer who can offer you opportunities for growth and development in your occupational therapy career- All whilst working within a friendly multidisciplinary team in a rewarding education setting? Do you want to have opportunities to participate in research projects, special interest groups and form part of a wider occupational therapy network that meets regularly for training & development? Do you want to have flexibility and be able to work creatively to deliver speci\u2026",
+            "salary_is_predicted": "0"
+        },
+        {
             "category": {
                 "tag": "trade-construction-jobs",
                 "__CLASS__": "Adzuna::API::Response::Category",
                 "label": "Trade & Construction Jobs"
             },
-            "id": "5757065526",
-            "description": "M&E Quantity Surveyor/Estimator - Belfast Your new company A well-established specialist contractor is seeking an M&E Quantity Surveyor or Estimator to join their growing team in Belfast. This is a commercially focused role, supporting both tendering and live project delivery, with involvement across mechanical and electrical packages. This opportunity would suit someone with strong commercial awareness within M&E, who is comfortable reviewing tenders, managing costs, and engaging with both int\u2026",
+            "salary_min": 43078,
             "company": {
                 "display_name": "Hays",
                 "__CLASS__": "Adzuna::API::Response::Company"
             },
-            "created": "2026-06-09T11:35:07Z",
-            "salary_min": 50508.89,
-            "salary_is_predicted": "1",
-            "adref": "eyJhbGciOiJIUzI1NiJ9.eyJpIjoiNTc1NzA2NTUyNiIsInMiOiJhbktGcF9sajhSRzBXdUM4NWNkRXlRIn0.JS3u8-P8S1IdVcYEHsN_sjra72PpZcnbfWUlHB8yH68",
-            "title": "M&E Quantity Surveyor/Estimator"
-        },
-        {
-            "latitude": 55.943116,
-            "location": {
-                "__CLASS__": "Adzuna::API::Response::Location",
-                "area": [
-                    "UK",
-                    "Scotland",
-                    "Edinburgh"
-                ],
-                "display_name": "Edinburgh, Scotland"
-            },
-            "redirect_url": "https://www.adzuna.co.uk/jobs/land/ad/5744674347?se=anKFp_lj8RG0WuC85cdEyQ&utm_medium=api&utm_source=f7ef3cac&v=EDC87415FDEE2E74C8F90BB3AAB5929964353C50",
+            "salary_max": 43078,
+            "adref": "eyJhbGciOiJIUzI1NiJ9.eyJpIjoiNTcyMDY4MTI1OCIsInMiOiJ0aDBfdmdsazhSR2F3cXdoWFJIM1h3In0.xkg1IdD6vZmTc2i3JYrpwEv9JSfsdMArq7Fq_w1oPOs",
             "__CLASS__": "Adzuna::API::Response::Job",
-            "salary_max": 56273.11,
-            "category": {
-                "label": "Trade & Construction Jobs",
-                "__CLASS__": "Adzuna::API::Response::Category",
-                "tag": "trade-construction-jobs"
-            },
-            "adref": "eyJhbGciOiJIUzI1NiJ9.eyJzIjoiYW5LRnBfbGo4UkcwV3VDODVjZEV5USIsImkiOiI1NzQ0Njc0MzQ3In0.GbSrwG46mF1jc52tbXx1yVjqHm3BZOw0_UR03FmQ6fA",
-            "longitude": -3.327942,
-            "title": "Design and Bid Manager",
-            "id": "5744674347",
-            "description": "A leading Edinburgh based Main Contractor requires Design Focused professional. Bid Coordinator / Design Coordinator - PreconstructionEdinburgh | Attractive Salary  Flexible Working Hays Construction & Property is proud to be partnering with a leading Edinburgh-based refurbishment and fit-out contractor, renowned for delivering high-end design and build projects across the hotel, leisure and prime residential sectors. Due to continued growth, they are seeking a Bid-focused Design professional t\u2026",
-            "company": {
-                "__CLASS__": "Adzuna::API::Response::Company",
-                "display_name": "HAYS"
-            },
-            "created": "2026-05-29T15:51:40Z",
-            "salary_is_predicted": "1",
-            "salary_min": 56273.11
-        },
-        {
-            "longitude": 7e-06,
-            "adref": "eyJhbGciOiJIUzI1NiJ9.eyJzIjoiYW5LRnBfbGo4UkcwV3VDODVjZEV5USIsImkiOiI1NzI0ODE1MjQ5In0.cxbDQB7pPoEp-Xpu5geV7HsapyKmGfXnXJbJn7yITkk",
-            "__CLASS__": "Adzuna::API::Response::Job",
-            "salary_max": 66453.74,
-            "latitude": 51.486099,
-            "salary_min": 66453.74,
-            "salary_is_predicted": "1",
-            "created": "2026-05-10T04:05:51Z",
-            "contract_type": "permanent",
-            "company": {
-                "display_name": "Hays",
-                "__CLASS__": "Adzuna::API::Response::Company"
-            },
-            "description": "Senior Quantity Surveyor Based in London - Remediation & Cladding Procurement experience essential - Perm Job Your new company You will be joining a well-established specialist contractor operating across London and the South East. With over a decade of experience, the business has built a strong reputation for delivering cladding remediation and fire-safety-led facade replacement projects, often within live and occupied residential environments. The company is known for its technical expertise\u2026",
-            "id": "5724815249",
-            "title": "Senior Quantity Surveyor (Facades & Remediation)",
-            "category": {
-                "__CLASS__": "Adzuna::API::Response::Category",
-                "label": "Trade & Construction Jobs",
-                "tag": "trade-construction-jobs"
-            },
-            "redirect_url": "https://www.adzuna.co.uk/jobs/land/ad/5724815249?se=anKFp_lj8RG0WuC85cdEyQ&utm_medium=api&utm_source=f7ef3cac&v=BCD3419347BE7BC2DBA91A8AB49A5FD0729261D9",
+            "latitude": 51.51985,
+            "redirect_url": "https://www.adzuna.co.uk/jobs/land/ad/5720681258?se=th0_vglk8RGawqwhXRH3Xw&utm_medium=api&utm_source=f7ef3cac&v=9B5C4010DB69DE9D7E7EA9B167CB03F04D24119B",
             "location": {
-                "display_name": "Greenwich, South East London",
                 "area": [
                     "UK",
                     "London",
-                    "South East London",
-                    "Greenwich"
+                    "Central London"
                 ],
+                "display_name": "Central London, London",
                 "__CLASS__": "Adzuna::API::Response::Location"
-            }
+            },
+            "longitude": -0.11126,
+            "description": "Assistant Project Manager (Construction - Cut & Carve) -\u00a355-60,000 - London We are supporting an established National Main Contractor with more than \u00a3800M of New Build under construction across London and a growing pipeline of a similar value.They have a need for an Assistant Project Manager to join them on an Iconic new Central London \u00a3200M cut & carve Hotel Development at PCSA stage. You will join the team in a key support role, engaging with the PCSA process and grow with the project and bus\u2026",
+            "created": "2026-05-06T20:52:39Z",
+            "salary_is_predicted": "1",
+            "id": "5720681258",
+            "title": "Assistant Project Manager"
         },
         {
-            "adref": "eyJhbGciOiJIUzI1NiJ9.eyJzIjoiYW5LRnBfbGo4UkcwV3VDODVjZEV5USIsImkiOiI1NzIwNjgxMzE5In0.UwvFSOv2KnLl9ZzDdYDIkA75kO89kUP60T4VS5xoCWg",
-            "title": "Building Services Manager",
-            "longitude": 0.19691,
-            "company": {
-                "display_name": "Hays",
-                "__CLASS__": "Adzuna::API::Response::Company"
-            },
-            "id": "5720681319",
-            "description": "Building Services Manager Overview The Building Services Manager will provide technical expertise and support to project and site teams, ensuring that all Building Services elements are designed, coordinated, installed, and commissioned to the required standards. The role involves managing pre-construction activities, overseeing subcontractor performance, and ensuring successful delivery of building services throughout the project lifecycle.A relevant qualification (Degree/HND) in Building Serv\u2026",
-            "salary_min": 56594.46,
-            "salary_is_predicted": "1",
-            "created": "2026-05-06T20:52:40Z",
-            "salary_max": 56594.46,
-            "__CLASS__": "Adzuna::API::Response::Job",
-            "redirect_url": "https://www.adzuna.co.uk/jobs/land/ad/5720681319?se=anKFp_lj8RG0WuC85cdEyQ&utm_medium=api&utm_source=f7ef3cac&v=2BE2B8F258AC0B9BECD58CC784F43AA43FA00B89",
-            "location": {
-                "display_name": "Stansted, Essex",
-                "area": [
-                    "UK",
-                    "Eastern England",
-                    "Essex",
-                    "Stansted"
-                ],
-                "__CLASS__": "Adzuna::API::Response::Location"
-            },
-            "latitude": 51.905201,
             "category": {
                 "__CLASS__": "Adzuna::API::Response::Category",
                 "label": "Trade & Construction Jobs",
                 "tag": "trade-construction-jobs"
+            },
+            "salary_min": 56010.65,
+            "description": "Quantity Surveyor or Assistant QS - Permanent Office based in Wembley - upto \u00a340K - \u00a365K DOE Your new company An established and fast-growing contractor is delivering high-quality refurbishment, maintenance, and energy-efficiency programmes across London. The organisation partners with local authorities, housing associations, and social housing providers to deliver essential building improvements that make a real difference within local communities. As part of their continued expansion, they ar\u2026",
+            "salary_is_predicted": "1",
+            "location": {
+                "area": [
+                    "UK",
+                    "London",
+                    "North London"
+                ],
+                "__CLASS__": "Adzuna::API::Response::Location",
+                "display_name": "North London, London"
+            },
+            "redirect_url": "https://www.adzuna.co.uk/jobs/land/ad/5643439559?se=th0_vglk8RGawqwhXRH3Xw&utm_medium=api&utm_source=f7ef3cac&v=21ADFF7717598CE84729AEE6E19AF2284D3A69DB",
+            "contract_type": "permanent",
+            "__CLASS__": "Adzuna::API::Response::Job",
+            "adref": "eyJhbGciOiJIUzI1NiJ9.eyJzIjoidGgwX3ZnbGs4Ukdhd3F3aFhSSDNYdyIsImkiOiI1NjQzNDM5NTU5In0.ez7EzR3j9v_4Cy_z_LEopNoYjw6bT-lI2TxsG_I_btg",
+            "salary_max": 56010.65,
+            "company": {
+                "display_name": "Hays",
+                "__CLASS__": "Adzuna::API::Response::Company"
+            },
+            "title": "Quantity Surveyor",
+            "created": "2026-02-24T10:27:18Z",
+            "id": "5643439559",
+            "longitude": -0.123313,
+            "latitude": 51.586237
+        },
+        {
+            "contract_time": "full_time",
+            "latitude": 53.410801,
+            "longitude": -2.97784,
+            "created": "2026-05-14T13:28:42Z",
+            "id": "5729221208",
+            "title": "SSC Professional Qualifications Administrator",
+            "company": {
+                "__CLASS__": "Adzuna::API::Response::Company",
+                "display_name": "BDO UK"
+            },
+            "salary_max": 50089.64,
+            "__CLASS__": "Adzuna::API::Response::Job",
+            "adref": "eyJhbGciOiJIUzI1NiJ9.eyJpIjoiNTcyOTIyMTIwOCIsInMiOiJ0aDBfdmdsazhSR2F3cXdoWFJIM1h3In0.2n6xfRIB2WJfU9Yd8yFeKXs-tuO14Tj0St9lRqhCWuU",
+            "redirect_url": "https://www.adzuna.co.uk/jobs/land/ad/5729221208?se=th0_vglk8RGawqwhXRH3Xw&utm_medium=api&utm_source=f7ef3cac&v=B3167B54A7405EF40A0CB2BD72528F37FE939FF3",
+            "location": {
+                "area": [
+                    "UK",
+                    "North West England",
+                    "Merseyside",
+                    "Liverpool"
+                ],
+                "display_name": "Liverpool, Merseyside",
+                "__CLASS__": "Adzuna::API::Response::Location"
+            },
+            "description": "Ideas | People | Trust We\u2019re BDO. An accountancy and business advisory firm, providing the advice and solutions entrepreneurial organisations need to navigate today\u2019s changing world. We work with the companies that are Britain\u2019s economic engine \u2013 ambitious, entrepreneurially-spirited and high growth businesses that fuel the economy - and directly advise the owners and management teams that lead them. We\u2019ll broaden your horizons Our Shared Service Centre team (SSC) provides essential support to \u2026",
+            "salary_is_predicted": "1",
+            "category": {
+                "__CLASS__": "Adzuna::API::Response::Category",
+                "label": "Accounting & Finance Jobs",
+                "tag": "accounting-finance-jobs"
+            },
+            "salary_min": 50089.64
+        },
+        {
+            "title": "Senior Civil Engineer/Project Manager",
+            "description": "Senior Civil Engineer, Project Manager, Chartered Engineer Your new company Hays are working with a leading consultancy that partners with local government clients to deliver impactful infrastructure projects in the UK and Ireland. This organisation is committed to improving communities through innovative solutions in areas such as Active Travel, Public Realm, Environmental Improvement, and Sports Facilities. They pride themselves on delivering high-quality projects that enhance sustainability \u2026",
+            "salary_is_predicted": "1",
+            "id": "5643438556",
+            "created": "2026-02-24T10:27:12Z",
+            "location": {
+                "display_name": "Northern Ireland, UK",
+                "__CLASS__": "Adzuna::API::Response::Location",
+                "area": [
+                    "UK",
+                    "Northern Ireland"
+                ]
+            },
+            "longitude": -7.388242,
+            "redirect_url": "https://www.adzuna.co.uk/jobs/land/ad/5643438556?se=th0_vglk8RGawqwhXRH3Xw&utm_medium=api&utm_source=f7ef3cac&v=128B86665EA52B4DB4603C17B49BC98CFCEE9821",
+            "latitude": 54.388189,
+            "__CLASS__": "Adzuna::API::Response::Job",
+            "adref": "eyJhbGciOiJIUzI1NiJ9.eyJzIjoidGgwX3ZnbGs4Ukdhd3F3aFhSSDNYdyIsImkiOiI1NjQzNDM4NTU2In0.qkKilZjkKLxc_w3t0q-jipAsa-fREuI8Cg5aiHfjjt4",
+            "salary_max": 59029.14,
+            "company": {
+                "display_name": "Hays",
+                "__CLASS__": "Adzuna::API::Response::Company"
+            },
+            "category": {
+                "__CLASS__": "Adzuna::API::Response::Category",
+                "label": "Engineering Jobs",
+                "tag": "engineering-jobs"
+            },
+            "salary_min": 59029.14
+        },
+        {
+            "salary_max": 45000,
+            "contract_type": "permanent",
+            "adref": "eyJhbGciOiJIUzI1NiJ9.eyJpIjoiNTc1MjEzNjgyNSIsInMiOiJ0aDBfdmdsazhSR2F3cXdoWFJIM1h3In0.Hth2Mw9qXfht2PmK4CcS4aX9aLY3xEXUPbe135mD6I4",
+            "__CLASS__": "Adzuna::API::Response::Job",
+            "company": {
+                "display_name": "Outcomes First Group",
+                "__CLASS__": "Adzuna::API::Response::Company"
+            },
+            "id": "5752136825",
+            "created": "2026-06-04T16:24:15Z",
+            "title": "SEN Teacher - Plus Welcome Bonus!",
+            "latitude": 51.44335,
+            "longitude": -0.959001,
+            "category": {
+                "tag": "teaching-jobs",
+                "__CLASS__": "Adzuna::API::Response::Category",
+                "label": "Teaching Jobs"
+            },
+            "salary_min": 0,
+            "description": "At OFG we allow for greater work life balance and extra time to do the things you love outside work Job Title: SEN Teacher Location: Groveside School, Reading, RG2 7AY Hours: 37.5 per week | Monday\u2013Friday Salary: Up to \u00a345,000 per annum (depending on experience, not pro rata) plus a Welcome Bonus of \u00a31000* Contract: Permanent | Term Time Only Start: September 2026 UK applicants only \u2013 no sponsorship available About the Role Groveside School is seeking an inspirational and dedicated SEN Teacher \u2026",
+            "salary_is_predicted": "0",
+            "redirect_url": "https://www.adzuna.co.uk/jobs/land/ad/5752136825?se=th0_vglk8RGawqwhXRH3Xw&utm_medium=api&utm_source=f7ef3cac&v=1DA592C1785A03F639365EEFC2CC25A0EB022E31",
+            "location": {
+                "__CLASS__": "Adzuna::API::Response::Location",
+                "display_name": "Caversham, Reading",
+                "area": [
+                    "UK",
+                    "South East England",
+                    "Berkshire",
+                    "Reading",
+                    "Caversham"
+                ]
             }
+        },
+        {
+            "company": {
+                "display_name": "Hays",
+                "__CLASS__": "Adzuna::API::Response::Company"
+            },
+            "salary_min": 49425.55,
+            "category": {
+                "tag": "trade-construction-jobs",
+                "__CLASS__": "Adzuna::API::Response::Category",
+                "label": "Trade & Construction Jobs"
+            },
+            "salary_max": 49425.55,
+            "adref": "eyJhbGciOiJIUzI1NiJ9.eyJzIjoidGgwX3ZnbGs4Ukdhd3F3aFhSSDNYdyIsImkiOiI1NzA3MzQyMTA5In0.PofsOHvQefZ84UBHhTr9eZ0ihPFQJYPcZuTYI-9mu34",
+            "__CLASS__": "Adzuna::API::Response::Job",
+            "redirect_url": "https://www.adzuna.co.uk/jobs/land/ad/5707342109?se=th0_vglk8RGawqwhXRH3Xw&utm_medium=api&utm_source=f7ef3cac&v=88D53AB4BC78DC257607E9845602D5C064E33464",
+            "location": {
+                "display_name": "Wales, UK",
+                "__CLASS__": "Adzuna::API::Response::Location",
+                "area": [
+                    "UK",
+                    "Wales"
+                ]
+            },
+            "created": "2026-04-22T19:07:35Z",
+            "description": "Quantity Surveyor required for growing Building & Civil Engineering Contractor Are you a skilled Quantity Surveyor looking to take the next step in your career? A growing and well-respected construction business is seeking a proactive and experienced QS to join their expanding team, working across a diverse range of Commercial and Civil Engineering projects. About the Role: This is a fantastic opportunity to join a business with a strong pipeline of work across North Wales and into Cheshire. Yo\u2026",
+            "salary_is_predicted": "1",
+            "id": "5707342109",
+            "title": "Quantity Surveyor (Civils & Build)"
         }
-    ],
-    "mean": 42459.08,
-    "count": 828568
+    ]
 }
