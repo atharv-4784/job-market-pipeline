@@ -1,343 +1,356 @@
 {
-    "__CLASS__": "Adzuna::API::Response::JobSearchResults",
-    "count": 821902,
-    "mean": 42473.63,
     "results": [
         {
-            "category": {
-                "tag": "teaching-jobs",
-                "label": "Teaching Jobs",
-                "__CLASS__": "Adzuna::API::Response::Category"
+            "company": {
+                "display_name": "Outcomes First Group",
+                "__CLASS__": "Adzuna::API::Response::Company"
             },
-            "salary_min": 0,
-            "salary_is_predicted": "0",
-            "description": "We work smarter so that you can enjoy the things that matter outside of work Job Title: Pre Formal Teacher Location: Heath Farm School, Ashford, Kent, TN27 0AX Hours: 35 hours per week | Monday to Friday Salary: Up to \u00a340,000 per annum (depending on experience, not pro rata) Contract: Fixed term - March 2027 | Term Time Only Start: September 2026 UK applicants only \u2013 no sponsorship available About the Role Are you passionate about creating meaningful learning experiences for children with profo\u2026",
-            "redirect_url": "https://www.adzuna.co.uk/jobs/land/ad/5749070028?se=th0_vglk8RGawqwhXRH3Xw&utm_medium=api&utm_source=f7ef3cac&v=E214AFBC5D8A4B3EF5C93E192E27F36EC86232F4",
             "location": {
-                "display_name": "Paddlesworth, Folkestone",
                 "__CLASS__": "Adzuna::API::Response::Location",
                 "area": [
                     "UK",
                     "South East England",
-                    "Kent",
-                    "Folkestone",
-                    "Paddlesworth"
-                ]
+                    "East Sussex",
+                    "Crowborough",
+                    "Stone Cross"
+                ],
+                "display_name": "Stone Cross, Crowborough"
             },
-            "salary_max": 40000,
-            "adref": "eyJhbGciOiJIUzI1NiJ9.eyJzIjoidGgwX3ZnbGs4Ukdhd3F3aFhSSDNYdyIsImkiOiI1NzQ5MDcwMDI4In0.MaXXD8v1VHmxuaSTtEZELZHGYWr_BWQIryhhBrsB_N0",
-            "__CLASS__": "Adzuna::API::Response::Job",
-            "contract_type": "contract",
-            "company": {
-                "__CLASS__": "Adzuna::API::Response::Company",
-                "display_name": "Outcomes First Group"
-            },
-            "created": "2026-06-02T12:33:13Z",
-            "id": "5749070028",
-            "title": "Pre Formal Teacher",
-            "latitude": 51.115588,
-            "longitude": 1.149255
-        },
-        {
-            "salary_max": 39000,
-            "adref": "eyJhbGciOiJIUzI1NiJ9.eyJpIjoiNTc1NzIxNTcwMSIsInMiOiJ0aDBfdmdsazhSR2F3cXdoWFJIM1h3In0.1JgSmdKZLwXLQLsFerhO580HSpflO5hgjf2s-itJn9s",
-            "__CLASS__": "Adzuna::API::Response::Job",
-            "contract_type": "permanent",
-            "company": {
-                "__CLASS__": "Adzuna::API::Response::Company",
-                "display_name": "Outcomes First Group"
-            },
-            "id": "5757215701",
-            "created": "2026-06-09T12:51:34Z",
-            "title": "SEN Teacher",
-            "latitude": 50.864964,
-            "longitude": -0.815106,
             "category": {
                 "tag": "teaching-jobs",
                 "__CLASS__": "Adzuna::API::Response::Category",
                 "label": "Teaching Jobs"
             },
-            "salary_min": 39000,
-            "description": "At OFG we believe in creating a better work life balance! Role: SEN Teacher Location: Jubilee School, Waterlooville PO7 7RE Salary: \u00a339,000 per annum ( not pro rata ) Hours: 40 hours per week | Monday to Friday | 8.30am \u2013 4.30pm Contract: Permanent | Term Time Only Start: September 2026 UK applicants only \u2013 no sponsorship available About the Role Are you a passionate, resilient and creative educator who believes every young person deserves the chance to thrive? Do you want to work in a setting \u2026",
-            "salary_is_predicted": "0",
-            "redirect_url": "https://www.adzuna.co.uk/jobs/land/ad/5757215701?se=th0_vglk8RGawqwhXRH3Xw&utm_medium=api&utm_source=f7ef3cac&v=10A0C0FA62A2D23BC7547B41479FD158A359E099",
-            "location": {
-                "__CLASS__": "Adzuna::API::Response::Location",
-                "display_name": "West Stoke, Chichester",
-                "area": [
-                    "UK",
-                    "South East England",
-                    "West Sussex",
-                    "Chichester",
-                    "West Stoke"
-                ]
-            }
-        },
-        {
-            "company": {
-                "display_name": "RAC",
-                "__CLASS__": "Adzuna::API::Response::Company"
-            },
+            "contract_type": "permanent",
+            "id": "5750872333",
             "__CLASS__": "Adzuna::API::Response::Job",
-            "adref": "eyJhbGciOiJIUzI1NiJ9.eyJpIjoiNTY2MTYzNzE4NSIsInMiOiJ0aDBfdmdsazhSR2F3cXdoWFJIM1h3In0.6x0vRODhrBDbxAh1X56LxRNkHLO9j7cN8FQM3e0Fo2k",
-            "salary_max": 52000,
-            "longitude": -2.994932,
-            "latitude": 51.244769,
-            "contract_time": "full_time",
-            "title": "Mobile Mechanic",
-            "created": "2026-03-11T12:09:07Z",
-            "id": "5661637185",
-            "category": {
-                "tag": "engineering-jobs",
-                "label": "Engineering Jobs",
-                "__CLASS__": "Adzuna::API::Response::Category"
-            },
-            "salary_min": 0,
-            "location": {
-                "__CLASS__": "Adzuna::API::Response::Location",
-                "display_name": "Berrow, Burnham-On-Sea",
-                "area": [
-                    "UK",
-                    "South West England",
-                    "Somerset",
-                    "Burnham-On-Sea",
-                    "Berrow"
-                ]
-            },
-            "redirect_url": "https://www.adzuna.co.uk/jobs/land/ad/5661637185?se=th0_vglk8RGawqwhXRH3Xw&utm_medium=api&utm_source=f7ef3cac&v=0649747BFCA3D0D3D7D59056B243C3BAE32FDC58",
+            "redirect_url": "https://www.adzuna.co.uk/jobs/land/ad/5750872333?se=1vMEIPBk8RGN64C7ajy0tA&utm_medium=api&utm_source=f7ef3cac&v=9CD6C0D6F625A8E88DEC09E5D9425E828699BFD3",
+            "created": "2026-06-03T20:16:09Z",
+            "description": "At OFG we believe in creating a better work life balance! Job Title: Primary Teacher Location: Mountfield Heath School, Robertsbridge, TN32 5FA Hours: 37.5 hours per week | Monday to Friday Salary: Up to \u00a345,350 per annum (depending on experience, not pro rata) Contract: Permanent | Term Time Only Start: September 2026 UK applicants only \u2013 no sponsorship available About the Role Inspiring Learning. Transforming Lives. Are you a passionate, reflective and child\u2011centred primary teacher who believ\u2026",
             "salary_is_predicted": "0",
-            "description": "Join the RAC as a Mobile Vehicle Technician in our SMR Division - a new era of mobile repair. A competitive base salary of \u00a340,178, with on-target earnings of up to \u00a352,000 A guaranteed overtime option to increase your base salary to \u00a344,385, plus additional overtime and bonus opportunities 40 hours per week, with core hours from 8:30 am to 5:00 pm, and 1 in 4 Saturdays. A Different Kind of RAC Role: Welcome to SMR The RAC is known for roadside rescue - but this isn\u2019t that. Our Service, Mainten\u2026"
+            "salary_min": 0,
+            "latitude": 51.052968,
+            "longitude": 0.174028,
+            "adref": "eyJhbGciOiJIUzI1NiJ9.eyJpIjoiNTc1MDg3MjMzMyIsInMiOiIxdk1FSVBCazhSR042NEM3YWp5MHRBIn0.5taqPbL_bTdj5-b3RKf7JsJWH_Dosn3oYUEs5X0iu9s",
+            "title": "Primary Teacher",
+            "salary_max": 45350
         },
         {
+            "description": "Are you looking for an employer who can offer you opportunities for growth and development in your occupational therapy career- All whilst working within a friendly multidisciplinary team in a rewarding education setting? Do you want to have opportunities to participate in research projects, special interest groups and form part of a wider occupational therapy network that meets regularly for training & development? Do you want to have flexibility and be able to work creatively to deliver speci\u2026",
+            "salary_is_predicted": "0",
+            "salary_min": 0,
+            "created": "2026-05-17T00:55:52Z",
+            "adref": "eyJhbGciOiJIUzI1NiJ9.eyJpIjoiNTczMTkwOTgyMCIsInMiOiIxdk1FSVBCazhSR042NEM3YWp5MHRBIn0.mUPbZhKp3eAz0R3dYauCepjNlEuV7zsbMPvDlJRqyx0",
+            "salary_max": 53200,
+            "title": "Highly Specialist Occupational Therapist - Maternity Leave Cover",
+            "latitude": 51.576143,
+            "longitude": -0.121957,
+            "contract_type": "contract",
             "company": {
                 "__CLASS__": "Adzuna::API::Response::Company",
                 "display_name": "Outcomes First Group"
             },
-            "adref": "eyJhbGciOiJIUzI1NiJ9.eyJpIjoiNTczODE3Njk5OSIsInMiOiJ0aDBfdmdsazhSR2F3cXdoWFJIM1h3In0.yS5KewrG_RHDE-3RWamW_4cvwY7WcvpeCVS6DVJHqp8",
-            "__CLASS__": "Adzuna::API::Response::Job",
-            "contract_type": "permanent",
-            "salary_max": 53200,
-            "longitude": -3.746705,
-            "contract_time": "full_time",
-            "latitude": 50.525176,
-            "title": "Occupational Therapist",
-            "created": "2026-05-23T01:09:19Z",
-            "id": "5738176999",
-            "category": {
-                "__CLASS__": "Adzuna::API::Response::Category",
-                "label": "Healthcare & Nursing Jobs",
-                "tag": "healthcare-nursing-jobs"
+            "location": {
+                "display_name": "Hornsey, North London",
+                "__CLASS__": "Adzuna::API::Response::Location",
+                "area": [
+                    "UK",
+                    "London",
+                    "North London",
+                    "Hornsey"
+                ]
             },
-            "salary_min": 0,
+            "category": {
+                "label": "Teaching Jobs",
+                "__CLASS__": "Adzuna::API::Response::Category",
+                "tag": "teaching-jobs"
+            },
+            "__CLASS__": "Adzuna::API::Response::Job",
+            "redirect_url": "https://www.adzuna.co.uk/jobs/land/ad/5731909820?se=1vMEIPBk8RGN64C7ajy0tA&utm_medium=api&utm_source=f7ef3cac&v=4AB3B0B64E2D9163F5EE082AEB6D6D10FEB80159",
+            "id": "5731909820"
+        },
+        {
+            "__CLASS__": "Adzuna::API::Response::Job",
+            "redirect_url": "https://www.adzuna.co.uk/jobs/land/ad/5716061770?se=1vMEIPBk8RGN64C7ajy0tA&utm_medium=api&utm_source=f7ef3cac&v=4C1A03B8EC5A2479F9E161C849D30447BDEDCBDE",
+            "id": "5716061770",
+            "company": {
+                "__CLASS__": "Adzuna::API::Response::Company",
+                "display_name": "RAC"
+            },
             "location": {
                 "area": [
                     "UK",
                     "South West England",
                     "Devon",
-                    "Newton Abbot",
-                    "Ashburton",
-                    "Broadpark"
-                ],
-                "display_name": "Broadpark, Ashburton",
-                "__CLASS__": "Adzuna::API::Response::Location"
-            },
-            "redirect_url": "https://www.adzuna.co.uk/jobs/land/ad/5738176999?se=th0_vglk8RGawqwhXRH3Xw&utm_medium=api&utm_source=f7ef3cac&v=373FEF445BB58E59DA238D62C46529AE1BAF709C",
-            "description": "Are you looking for an employer who can offer you opportunities for growth and development in your occupational therapy career- All whilst working within a friendly multidisciplinary team in a rewarding education setting? Do you want to have opportunities to participate in research projects, special interest groups and form part of a wider occupational therapy network that meets regularly for training & development? Do you want to have flexibility and be able to work creatively to deliver speci\u2026",
-            "salary_is_predicted": "0"
-        },
-        {
-            "category": {
-                "tag": "trade-construction-jobs",
-                "__CLASS__": "Adzuna::API::Response::Category",
-                "label": "Trade & Construction Jobs"
-            },
-            "salary_min": 43078,
-            "company": {
-                "display_name": "Hays",
-                "__CLASS__": "Adzuna::API::Response::Company"
-            },
-            "salary_max": 43078,
-            "adref": "eyJhbGciOiJIUzI1NiJ9.eyJpIjoiNTcyMDY4MTI1OCIsInMiOiJ0aDBfdmdsazhSR2F3cXdoWFJIM1h3In0.xkg1IdD6vZmTc2i3JYrpwEv9JSfsdMArq7Fq_w1oPOs",
-            "__CLASS__": "Adzuna::API::Response::Job",
-            "latitude": 51.51985,
-            "redirect_url": "https://www.adzuna.co.uk/jobs/land/ad/5720681258?se=th0_vglk8RGawqwhXRH3Xw&utm_medium=api&utm_source=f7ef3cac&v=9B5C4010DB69DE9D7E7EA9B167CB03F04D24119B",
-            "location": {
-                "area": [
-                    "UK",
-                    "London",
-                    "Central London"
-                ],
-                "display_name": "Central London, London",
-                "__CLASS__": "Adzuna::API::Response::Location"
-            },
-            "longitude": -0.11126,
-            "description": "Assistant Project Manager (Construction - Cut & Carve) -\u00a355-60,000 - London We are supporting an established National Main Contractor with more than \u00a3800M of New Build under construction across London and a growing pipeline of a similar value.They have a need for an Assistant Project Manager to join them on an Iconic new Central London \u00a3200M cut & carve Hotel Development at PCSA stage. You will join the team in a key support role, engaging with the PCSA process and grow with the project and bus\u2026",
-            "created": "2026-05-06T20:52:39Z",
-            "salary_is_predicted": "1",
-            "id": "5720681258",
-            "title": "Assistant Project Manager"
-        },
-        {
-            "category": {
-                "__CLASS__": "Adzuna::API::Response::Category",
-                "label": "Trade & Construction Jobs",
-                "tag": "trade-construction-jobs"
-            },
-            "salary_min": 56010.65,
-            "description": "Quantity Surveyor or Assistant QS - Permanent Office based in Wembley - upto \u00a340K - \u00a365K DOE Your new company An established and fast-growing contractor is delivering high-quality refurbishment, maintenance, and energy-efficiency programmes across London. The organisation partners with local authorities, housing associations, and social housing providers to deliver essential building improvements that make a real difference within local communities. As part of their continued expansion, they ar\u2026",
-            "salary_is_predicted": "1",
-            "location": {
-                "area": [
-                    "UK",
-                    "London",
-                    "North London"
+                    "Teignmouth",
+                    "Shaldon"
                 ],
                 "__CLASS__": "Adzuna::API::Response::Location",
-                "display_name": "North London, London"
+                "display_name": "Shaldon, Teignmouth"
             },
-            "redirect_url": "https://www.adzuna.co.uk/jobs/land/ad/5643439559?se=th0_vglk8RGawqwhXRH3Xw&utm_medium=api&utm_source=f7ef3cac&v=21ADFF7717598CE84729AEE6E19AF2284D3A69DB",
-            "contract_type": "permanent",
-            "__CLASS__": "Adzuna::API::Response::Job",
-            "adref": "eyJhbGciOiJIUzI1NiJ9.eyJzIjoidGgwX3ZnbGs4Ukdhd3F3aFhSSDNYdyIsImkiOiI1NjQzNDM5NTU5In0.ez7EzR3j9v_4Cy_z_LEopNoYjw6bT-lI2TxsG_I_btg",
-            "salary_max": 56010.65,
-            "company": {
-                "display_name": "Hays",
-                "__CLASS__": "Adzuna::API::Response::Company"
+            "category": {
+                "tag": "engineering-jobs",
+                "label": "Engineering Jobs",
+                "__CLASS__": "Adzuna::API::Response::Category"
             },
-            "title": "Quantity Surveyor",
-            "created": "2026-02-24T10:27:18Z",
-            "id": "5643439559",
-            "longitude": -0.123313,
-            "latitude": 51.586237
+            "contract_time": "full_time",
+            "adref": "eyJhbGciOiJIUzI1NiJ9.eyJpIjoiNTcxNjA2MTc3MCIsInMiOiIxdk1FSVBCazhSR042NEM3YWp5MHRBIn0.ghyWkwdD2MI2-y9LcFdDYclGxUNdeemNxAkfsF0h4ho",
+            "salary_max": 52000,
+            "title": "Mobile Vehicle Technician",
+            "latitude": 50.5314,
+            "longitude": -3.514554,
+            "description": "Join the RAC as a Mobile Vehicle Technician in our SMR Division - a new era of mobile repair. A competitive base salary of \u00a340,178, with on-target earnings of up to \u00a352,000 A guaranteed overtime option to increase your base salary, plus additional overtime and bonus opportunities 40 hours per week, with core hours from 8:30 am to 5:00 pm, and 1 in 4 Saturdays. A Different Kind of RAC Role: Welcome to SMR The RAC is known for roadside rescue - but this isn\u2019t that. Our Service, Maintenance & Repa\u2026",
+            "salary_min": 0,
+            "salary_is_predicted": "0",
+            "created": "2026-05-01T18:29:11Z"
         },
         {
-            "contract_time": "full_time",
-            "latitude": 53.410801,
-            "longitude": -2.97784,
-            "created": "2026-05-14T13:28:42Z",
-            "id": "5729221208",
-            "title": "SSC Professional Qualifications Administrator",
+            "category": {
+                "tag": "teaching-jobs",
+                "__CLASS__": "Adzuna::API::Response::Category",
+                "label": "Teaching Jobs"
+            },
+            "location": {
+                "area": [
+                    "UK",
+                    "South East England",
+                    "Hampshire",
+                    "Waterlooville",
+                    "Cowplain"
+                ],
+                "__CLASS__": "Adzuna::API::Response::Location",
+                "display_name": "Cowplain, Waterlooville"
+            },
             "company": {
                 "__CLASS__": "Adzuna::API::Response::Company",
-                "display_name": "BDO UK"
+                "display_name": "Outcomes First Group"
             },
-            "salary_max": 50089.64,
+            "contract_type": "permanent",
+            "id": "5757215702",
+            "redirect_url": "https://www.adzuna.co.uk/jobs/land/ad/5757215702?se=1vMEIPBk8RGN64C7ajy0tA&utm_medium=api&utm_source=f7ef3cac&v=4D71ED11E1E8CFB76BBF9EAE60270717AC7DE5F1",
             "__CLASS__": "Adzuna::API::Response::Job",
-            "adref": "eyJhbGciOiJIUzI1NiJ9.eyJpIjoiNTcyOTIyMTIwOCIsInMiOiJ0aDBfdmdsazhSR2F3cXdoWFJIM1h3In0.2n6xfRIB2WJfU9Yd8yFeKXs-tuO14Tj0St9lRqhCWuU",
-            "redirect_url": "https://www.adzuna.co.uk/jobs/land/ad/5729221208?se=th0_vglk8RGawqwhXRH3Xw&utm_medium=api&utm_source=f7ef3cac&v=B3167B54A7405EF40A0CB2BD72528F37FE939FF3",
-            "location": {
-                "area": [
-                    "UK",
-                    "North West England",
-                    "Merseyside",
-                    "Liverpool"
-                ],
-                "display_name": "Liverpool, Merseyside",
-                "__CLASS__": "Adzuna::API::Response::Location"
-            },
-            "description": "Ideas | People | Trust We\u2019re BDO. An accountancy and business advisory firm, providing the advice and solutions entrepreneurial organisations need to navigate today\u2019s changing world. We work with the companies that are Britain\u2019s economic engine \u2013 ambitious, entrepreneurially-spirited and high growth businesses that fuel the economy - and directly advise the owners and management teams that lead them. We\u2019ll broaden your horizons Our Shared Service Centre team (SSC) provides essential support to \u2026",
-            "salary_is_predicted": "1",
-            "category": {
-                "__CLASS__": "Adzuna::API::Response::Category",
-                "label": "Accounting & Finance Jobs",
-                "tag": "accounting-finance-jobs"
-            },
-            "salary_min": 50089.64
+            "created": "2026-06-09T12:51:34Z",
+            "salary_is_predicted": "0",
+            "salary_min": 39000,
+            "description": "At OFG we believe in creating a better work life balance! Role: SEN Teacher Location: Jubilee School, Waterlooville PO7 7RE Salary: \u00a339,000 per annum ( not pro rata ) Hours: 40 hours per week | Monday to Friday | 8.30am \u2013 4.30pm Contract: Permanent | Term Time Only Start: September 2026 UK applicants only \u2013 no sponsorship available About the Role Are you a passionate, resilient and creative educator who believes every young person deserves the chance to thrive? Do you want to work in a setting \u2026",
+            "longitude": -1.032909,
+            "latitude": 50.886185,
+            "salary_max": 39000,
+            "title": "SEN Teacher",
+            "adref": "eyJhbGciOiJIUzI1NiJ9.eyJpIjoiNTc1NzIxNTcwMiIsInMiOiIxdk1FSVBCazhSR042NEM3YWp5MHRBIn0.1GicApIo-UVXuvNTwGrJIhkfRk1bVH9MKT3HDUChisM"
         },
         {
-            "title": "Senior Civil Engineer/Project Manager",
-            "description": "Senior Civil Engineer, Project Manager, Chartered Engineer Your new company Hays are working with a leading consultancy that partners with local government clients to deliver impactful infrastructure projects in the UK and Ireland. This organisation is committed to improving communities through innovative solutions in areas such as Active Travel, Public Realm, Environmental Improvement, and Sports Facilities. They pride themselves on delivering high-quality projects that enhance sustainability \u2026",
-            "salary_is_predicted": "1",
-            "id": "5643438556",
-            "created": "2026-02-24T10:27:12Z",
+            "salary_min": 0,
+            "salary_is_predicted": "0",
+            "description": "At OFG we allow for greater work life balance and extra time to do the things you love outside work Job Title: Psychotherapist Location: Heath Farm School \u2013 Kent TN27 0AX Salary: Up to \u00a352,000 FTE DOE Hours: 37.5 hours per week, Monday to Friday Contract: Permanent \u2013 Term Time only Essential: Full valid UK driving licence and access to own vehicle About the role We are looking for an experienced Psychotherapist to join our developing Clinical Team based at Heath Farm School. In this exciting ro\u2026",
+            "created": "2026-06-10T15:55:47Z",
+            "salary_max": 52000,
+            "title": "Psychotherapist",
+            "adref": "eyJhbGciOiJIUzI1NiJ9.eyJpIjoiNTc1ODU3NzMwNSIsInMiOiIxdk1FSVBCazhSR042NEM3YWp5MHRBIn0.j6n3LQac_AI0FipkzSJuIiz2-f4M_lsVXm_2V-YP-F4",
+            "longitude": 0.735537,
+            "latitude": 51.34315,
+            "contract_type": "permanent",
+            "category": {
+                "__CLASS__": "Adzuna::API::Response::Category",
+                "label": "Healthcare & Nursing Jobs",
+                "tag": "healthcare-nursing-jobs"
+            },
             "location": {
-                "display_name": "Northern Ireland, UK",
-                "__CLASS__": "Adzuna::API::Response::Location",
+                "display_name": "Milton Regis, Sittingbourne",
                 "area": [
                     "UK",
-                    "Northern Ireland"
-                ]
+                    "South East England",
+                    "Kent",
+                    "Sittingbourne",
+                    "Milton Regis"
+                ],
+                "__CLASS__": "Adzuna::API::Response::Location"
             },
-            "longitude": -7.388242,
-            "redirect_url": "https://www.adzuna.co.uk/jobs/land/ad/5643438556?se=th0_vglk8RGawqwhXRH3Xw&utm_medium=api&utm_source=f7ef3cac&v=128B86665EA52B4DB4603C17B49BC98CFCEE9821",
-            "latitude": 54.388189,
-            "__CLASS__": "Adzuna::API::Response::Job",
-            "adref": "eyJhbGciOiJIUzI1NiJ9.eyJzIjoidGgwX3ZnbGs4Ukdhd3F3aFhSSDNYdyIsImkiOiI1NjQzNDM4NTU2In0.qkKilZjkKLxc_w3t0q-jipAsa-fREuI8Cg5aiHfjjt4",
-            "salary_max": 59029.14,
             "company": {
-                "display_name": "Hays",
+                "display_name": "Outcomes First Group",
                 "__CLASS__": "Adzuna::API::Response::Company"
+            },
+            "redirect_url": "https://www.adzuna.co.uk/jobs/land/ad/5758577305?se=1vMEIPBk8RGN64C7ajy0tA&utm_medium=api&utm_source=f7ef3cac&v=B2FE48365F618FBB0E3281C7E9C6CE72A963038D",
+            "__CLASS__": "Adzuna::API::Response::Job",
+            "id": "5758577305"
+        },
+        {
+            "title": "SEN Teacher",
+            "salary_max": 42000,
+            "adref": "eyJhbGciOiJIUzI1NiJ9.eyJzIjoiMXZNRUlQQms4UkdONjRDN2FqeTB0QSIsImkiOiI1NzU3MjE1Njg2In0.JsnEoTgTF1-zYww_KKsyMiiWipC_N6nW2BL7wzLsyE4",
+            "longitude": -0.117154,
+            "latitude": 52.24864,
+            "salary_is_predicted": "0",
+            "salary_min": 0,
+            "description": "At OFG we allow for greater work life balance and extra time to do the things you love outside work Job Title: SEN Teacher Location: Papworth Hall School, Papworth Everard, CB23 3RD Hours: 37.5 per week | Monday\u2013Friday | Salary: Up to \u00a342,000 per annum (depending on experience, not pro rata) Contract: Permanent | Term Time Only Start: June 2026 UK applicants only \u2013 no sponsorship available About the Role Are you passionate about transforming the lives of young people? Do you thrive in a support\u2026",
+            "created": "2026-06-09T12:51:34Z",
+            "redirect_url": "https://www.adzuna.co.uk/jobs/land/ad/5757215686?se=1vMEIPBk8RGN64C7ajy0tA&utm_medium=api&utm_source=f7ef3cac&v=167CE1128DFB8C9579F9BA48BD86B1A3BAE64CE6",
+            "__CLASS__": "Adzuna::API::Response::Job",
+            "id": "5757215686",
+            "contract_type": "permanent",
+            "category": {
+                "label": "Teaching Jobs",
+                "__CLASS__": "Adzuna::API::Response::Category",
+                "tag": "teaching-jobs"
+            },
+            "location": {
+                "area": [
+                    "UK",
+                    "Eastern England",
+                    "Cambridgeshire",
+                    "Cambridge",
+                    "Papworth Everard"
+                ],
+                "__CLASS__": "Adzuna::API::Response::Location",
+                "display_name": "Papworth Everard, Cambridge"
+            },
+            "company": {
+                "display_name": "Outcomes First Group",
+                "__CLASS__": "Adzuna::API::Response::Company"
+            }
+        },
+        {
+            "id": "5546987379",
+            "__CLASS__": "Adzuna::API::Response::Job",
+            "redirect_url": "https://www.adzuna.co.uk/jobs/land/ad/5546987379?se=1vMEIPBk8RGN64C7ajy0tA&utm_medium=api&utm_source=f7ef3cac&v=900A7EA05DF26EB9FDBAD152AEB72AFC9F899300",
+            "company": {
+                "__CLASS__": "Adzuna::API::Response::Company",
+                "display_name": "RAC"
+            },
+            "location": {
+                "display_name": "Verwood, Dorset",
+                "area": [
+                    "UK",
+                    "South West England",
+                    "Dorset",
+                    "Verwood"
+                ],
+                "__CLASS__": "Adzuna::API::Response::Location"
             },
             "category": {
                 "__CLASS__": "Adzuna::API::Response::Category",
                 "label": "Engineering Jobs",
                 "tag": "engineering-jobs"
             },
-            "salary_min": 59029.14
+            "latitude": 50.875549,
+            "longitude": -1.871695,
+            "contract_time": "full_time",
+            "adref": "eyJhbGciOiJIUzI1NiJ9.eyJzIjoiMXZNRUlQQms4UkdONjRDN2FqeTB0QSIsImkiOiI1NTQ2OTg3Mzc5In0.8oABCAU2QCvHL-bcelNtVM_tTMqAmxtwMcJ4eqj7SLw",
+            "title": "Mobile Mechanic",
+            "salary_max": 52000,
+            "created": "2025-12-18T11:32:07Z",
+            "description": "Join the RAC as a Mobile Vehicle Technician in our SMR Division - a new era of mobile repair. A competitive base salary of \u00a340,178, with on-target earnings of up to \u00a352,000 A guaranteed overtime option to increase your base salary to \u00a344,385, plus additional overtime and bonus opportunities 40 hours per week, with core hours from 8:30 am to 5:00 pm, and 1 in 4 Saturdays. A Different Kind of RAC Role: Welcome to SMR The RAC is known for roadside rescue - but this isn\u2019t that. Our Service, Mainten\u2026",
+            "salary_min": 0,
+            "salary_is_predicted": "0"
         },
         {
-            "salary_max": 45000,
-            "contract_type": "permanent",
-            "adref": "eyJhbGciOiJIUzI1NiJ9.eyJpIjoiNTc1MjEzNjgyNSIsInMiOiJ0aDBfdmdsazhSR2F3cXdoWFJIM1h3In0.Hth2Mw9qXfht2PmK4CcS4aX9aLY3xEXUPbe135mD6I4",
+            "salary_min": 0,
+            "salary_is_predicted": "0",
+            "description": "Join the RAC as a Mobile Vehicle Technician in our SMR Division - a new era of mobile repair. A competitive base salary of \u00a340,178, with on-target earnings of up to \u00a352,000 A guaranteed overtime option to increase your base salary to \u00a344,385, plus additional overtime and bonus opportunities 40 hours per week, with core hours from 8:30 am to 5:00 pm, and 1 in 4 Saturdays. A Different Kind of RAC Role: Welcome to SMR The RAC is known for roadside rescue - but this isn\u2019t that. Our Service, Mainten\u2026",
+            "created": "2026-03-11T12:09:05Z",
+            "title": "Mobile Mechanic",
+            "salary_max": 52000,
+            "adref": "eyJhbGciOiJIUzI1NiJ9.eyJpIjoiNTY2MTYzNzE2MiIsInMiOiIxdk1FSVBCazhSR042NEM3YWp5MHRBIn0.0P_EVkLZEQZcyzmBKwGXObAUWzOp8kd-zKYCNv6vqZg",
+            "contract_time": "full_time",
+            "longitude": -2.598601,
+            "latitude": 51.044825,
+            "category": {
+                "tag": "engineering-jobs",
+                "label": "Engineering Jobs",
+                "__CLASS__": "Adzuna::API::Response::Category"
+            },
+            "location": {
+                "display_name": "West Camel, Yeovil",
+                "__CLASS__": "Adzuna::API::Response::Location",
+                "area": [
+                    "UK",
+                    "South West England",
+                    "Somerset",
+                    "Yeovil",
+                    "West Camel"
+                ]
+            },
+            "company": {
+                "display_name": "RAC",
+                "__CLASS__": "Adzuna::API::Response::Company"
+            },
+            "redirect_url": "https://www.adzuna.co.uk/jobs/land/ad/5661637162?se=1vMEIPBk8RGN64C7ajy0tA&utm_medium=api&utm_source=f7ef3cac&v=11ACFBBCD8AD6BBE0AFC1E47B11A1D3CC4E97DDF",
             "__CLASS__": "Adzuna::API::Response::Job",
+            "id": "5661637162"
+        },
+        {
+            "description": "We put wellbeing first by giving our teams more time to recharge Job Title: Teacher Location: Stretton Shires School, Stretton, Rutland, LE15 7GT Hours: 37.5 hours per week | Monday\u2013Friday | 8:30am \u2013 4:30pm Salary: Up to \u00a342,500 per annum (depending on experience, not pro rata) Contract: Permanent | Term Time Only Start: September 2026 UK applicants only \u2013 no sponsorship available About the Role Stretton Shires School is entering an exciting period of growth, and we are seeking passionate teach\u2026",
+            "salary_is_predicted": "0",
+            "salary_min": 0,
+            "created": "2026-06-01T07:19:54Z",
+            "adref": "eyJhbGciOiJIUzI1NiJ9.eyJpIjoiNTc0NzE0NDE2NiIsInMiOiIxdk1FSVBCazhSR042NEM3YWp5MHRBIn0.dw3yWn_1eFK3hNvo7QlvmuxvV1fQhLrhaVEkK-1a8WQ",
+            "title": "Teacher",
+            "salary_max": 42500,
+            "latitude": 52.654115,
+            "longitude": -0.479243,
+            "contract_type": "permanent",
             "company": {
                 "display_name": "Outcomes First Group",
                 "__CLASS__": "Adzuna::API::Response::Company"
             },
-            "id": "5752136825",
-            "created": "2026-06-04T16:24:15Z",
-            "title": "SEN Teacher - Plus Welcome Bonus!",
-            "latitude": 51.44335,
-            "longitude": -0.959001,
+            "location": {
+                "area": [
+                    "UK",
+                    "East Midlands",
+                    "Lincolnshire",
+                    "Stamford",
+                    "St. Martins"
+                ],
+                "__CLASS__": "Adzuna::API::Response::Location",
+                "display_name": "St. Martins, Stamford"
+            },
             "category": {
                 "tag": "teaching-jobs",
                 "__CLASS__": "Adzuna::API::Response::Category",
                 "label": "Teaching Jobs"
             },
-            "salary_min": 0,
-            "description": "At OFG we allow for greater work life balance and extra time to do the things you love outside work Job Title: SEN Teacher Location: Groveside School, Reading, RG2 7AY Hours: 37.5 per week | Monday\u2013Friday Salary: Up to \u00a345,000 per annum (depending on experience, not pro rata) plus a Welcome Bonus of \u00a31000* Contract: Permanent | Term Time Only Start: September 2026 UK applicants only \u2013 no sponsorship available About the Role Groveside School is seeking an inspirational and dedicated SEN Teacher \u2026",
-            "salary_is_predicted": "0",
-            "redirect_url": "https://www.adzuna.co.uk/jobs/land/ad/5752136825?se=th0_vglk8RGawqwhXRH3Xw&utm_medium=api&utm_source=f7ef3cac&v=1DA592C1785A03F639365EEFC2CC25A0EB022E31",
-            "location": {
-                "__CLASS__": "Adzuna::API::Response::Location",
-                "display_name": "Caversham, Reading",
-                "area": [
-                    "UK",
-                    "South East England",
-                    "Berkshire",
-                    "Reading",
-                    "Caversham"
-                ]
-            }
+            "__CLASS__": "Adzuna::API::Response::Job",
+            "redirect_url": "https://www.adzuna.co.uk/jobs/land/ad/5747144166?se=1vMEIPBk8RGN64C7ajy0tA&utm_medium=api&utm_source=f7ef3cac&v=AB4E8CCCD10984380F5618AF03F5ABEC9E977B28",
+            "id": "5747144166"
         },
         {
-            "company": {
-                "display_name": "Hays",
-                "__CLASS__": "Adzuna::API::Response::Company"
-            },
-            "salary_min": 49425.55,
-            "category": {
-                "tag": "trade-construction-jobs",
-                "__CLASS__": "Adzuna::API::Response::Category",
-                "label": "Trade & Construction Jobs"
-            },
-            "salary_max": 49425.55,
-            "adref": "eyJhbGciOiJIUzI1NiJ9.eyJzIjoidGgwX3ZnbGs4Ukdhd3F3aFhSSDNYdyIsImkiOiI1NzA3MzQyMTA5In0.PofsOHvQefZ84UBHhTr9eZ0ihPFQJYPcZuTYI-9mu34",
             "__CLASS__": "Adzuna::API::Response::Job",
-            "redirect_url": "https://www.adzuna.co.uk/jobs/land/ad/5707342109?se=th0_vglk8RGawqwhXRH3Xw&utm_medium=api&utm_source=f7ef3cac&v=88D53AB4BC78DC257607E9845602D5C064E33464",
+            "redirect_url": "https://www.adzuna.co.uk/jobs/land/ad/5746793948?se=1vMEIPBk8RGN64C7ajy0tA&utm_medium=api&utm_source=f7ef3cac&v=A7C86E9AF57CFB7BA2B7B7A23C7F6F21BD35C06B",
+            "id": "5746793948",
+            "contract_type": "permanent",
+            "category": {
+                "label": "Healthcare & Nursing Jobs",
+                "__CLASS__": "Adzuna::API::Response::Category",
+                "tag": "healthcare-nursing-jobs"
+            },
+            "company": {
+                "__CLASS__": "Adzuna::API::Response::Company",
+                "display_name": "Outcomes First Group"
+            },
             "location": {
-                "display_name": "Wales, UK",
                 "__CLASS__": "Adzuna::API::Response::Location",
                 "area": [
                     "UK",
-                    "Wales"
-                ]
+                    "North West England",
+                    "Lancashire",
+                    "Morecambe",
+                    "Heysham"
+                ],
+                "display_name": "Heysham, Morecambe"
             },
-            "created": "2026-04-22T19:07:35Z",
-            "description": "Quantity Surveyor required for growing Building & Civil Engineering Contractor Are you a skilled Quantity Surveyor looking to take the next step in your career? A growing and well-respected construction business is seeking a proactive and experienced QS to join their expanding team, working across a diverse range of Commercial and Civil Engineering projects. About the Role: This is a fantastic opportunity to join a business with a strong pipeline of work across North Wales and into Cheshire. Yo\u2026",
-            "salary_is_predicted": "1",
-            "id": "5707342109",
-            "title": "Quantity Surveyor (Civils & Build)"
+            "title": "Occupational Therapist",
+            "salary_max": 53200,
+            "contract_time": "full_time",
+            "adref": "eyJhbGciOiJIUzI1NiJ9.eyJpIjoiNTc0Njc5Mzk0OCIsInMiOiIxdk1FSVBCazhSR042NEM3YWp5MHRBIn0.dmsYnoZBZOI9hfe0_r6DglRIBj-B0L2knX4z_b6sOYU",
+            "longitude": -2.879261,
+            "latitude": 54.050112,
+            "salary_min": 0,
+            "salary_is_predicted": "0",
+            "description": "Are you looking for an employer who can offer you opportunities for growth and development in your occupational therapy career- All whilst working within a friendly multidisciplinary team in a rewarding education setting? Do you want to have opportunities to participate in research projects, special interest groups and form part of a wider occupational therapy network that meets regularly for training & development? Do you want to have flexibility and be able to work creatively to deliver speci\u2026",
+            "created": "2026-06-01T00:52:42Z"
         }
-    ]
+    ],
+    "mean": 42408.07,
+    "count": 830765,
+    "__CLASS__": "Adzuna::API::Response::JobSearchResults"
 }
