@@ -2,6 +2,7 @@ from dotenv import load_dotenv
 from datetime import datetime
 import os
 import boto3
+import json
 
 # Load environment variables
 load_dotenv()
@@ -43,3 +44,16 @@ s3.upload_file(
 
 print(f"Upload successful!")
 print(f"Uploaded to: s3://{bucket_name}/{s3_key}")
+
+import json
+
+response = s3.get_object(
+    Bucket="job-market-data-atharv",
+    Key="raw/2026/06/15/jobs.json"
+)
+
+data = json.loads(
+    response["Body"].read().decode("utf-8")
+)
+
+print("Jobs in S3:", len(data["results"]))

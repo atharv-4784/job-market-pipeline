@@ -1,34 +1,66 @@
-from dotenv import load_dotenv
-import os
-import boto3
-import pandas as pd
+from pathlib import Path
 import json
+import pandas as pd
 
-load_dotenv()
+# Read raw JSON
+with open("raw/jobs.json", "r", encoding="utf-8") as f:
+    data = json.load(f)
 
-s3 = boto3.client(
-    "s3",
-    aws_access_key_id=os.getenv("AWS_ACCESS_KEY"),
-    aws_secret_access_key=os.getenv("AWS_SECRET_KEY"),
-    region_name=os.getenv("AWS_REGION")
-)
-
-response = s3.get_object(
-    Bucket=os.getenv("BUCKET_NAME"),
-    Key="raw/2026/06/10/jobs.json"
-)
-
-data = json.loads(
-    response["Body"].read().decode("utf-8")
-)
-
+# Create DataFrame
 df = pd.DataFrame(data["results"])
 
-print(df.head())
-print(df.columns)
+print("Rows before cleaning:", len(df))
 
-print(df.columns.tolist())
+# Keep useful columns
+df = df[
+    [
+        "id",
+        "title",
+        "company",
+        "location",
+        "category",
+        "salary_min",
+        "salary_max",
+        "description"
+    ]
+].copy()
 
-df = df.drop_duplicates(subset=["id"])
+# Flatten nested columns
+df["company"] = df["company"].apply(
+    lambda x: x.get("display_name")
+    if isinstance(x, dict)
+    else None
+)
 
-print("Rows after removing duplicates:", len(df))
+df["location"] = df["location"].apply(
+    lambda x: x.get("display_name")
+    if isinstance(x, dict)
+    else None
+)
+
+df["category"] = df["category"].apply(
+    lambda x: x.get("label")
+    if isinstance(x, dict)
+    else None
+)
+
+# Remove duplicate jobs
+df.drop_duplicates(subset=["id"], inplace=True)
+
+# Remove rows missing important fields
+df.dropna(
+    subset=["title", "company", "location"],
+    inplace=True
+)
+
+
+# Create clean folder if needed
+Path("clean").mkdir(exist_ok=True)
+
+# Save cleaned data
+df.to_csv(
+    "clean/jobs_clean.csv",
+    index=False
+)
+
+print("Clean data saved to clean/jobs_clean.csv")
