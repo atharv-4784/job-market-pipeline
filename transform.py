@@ -53,6 +53,12 @@ df.dropna(
     inplace=True
 )
 
+# Calculate average salary using minimum and maximum salary
+df["avg_salary"] = (df["salary_min"] + df["salary_max"]) / 2
+
+# Round to 2 decimal places
+df["avg_salary"] = df["avg_salary"].round(2)
+
 
 # Create clean folder if needed
 Path("clean").mkdir(exist_ok=True)
