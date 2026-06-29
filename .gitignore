@@ -24,3 +24,7 @@ Thumbs.db
 
 # Mac
 .DS_Store
+
+# Generated data
+raw/
+clean/
