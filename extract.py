@@ -10,7 +10,7 @@ app_key = os.getenv("API_KEY")
 
 all_jobs = []
 
-for page in range(1, 11):  # pages 1-5
+for page in range(1, 20):  # pages 1-5
 
     url = f"https://api.adzuna.com/v1/api/jobs/gb/search/{page}"
 

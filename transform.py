@@ -49,7 +49,13 @@ df.drop_duplicates(subset=["id"], inplace=True)
 
 # Remove rows missing important fields
 df.dropna(
-    subset=["title", "company", "location"],
+    subset=[
+        "title",
+        "company",
+        "location",
+        "salary_min",
+        "salary_max"
+    ],
     inplace=True
 )
 
@@ -59,11 +65,40 @@ df["avg_salary"] = (df["salary_min"] + df["salary_max"]) / 2
 # Round to 2 decimal places
 df["avg_salary"] = df["avg_salary"].round(2)
 
+# Classify salary type
+def get_salary_type(row):
+    salary = row["avg_salary"]
+    desc = str(row["description"]).lower()
+
+    # Annual salaries
+    if salary >= 1000:
+        return "Annual"
+
+    # Hourly salaries
+    hourly_keywords = [
+        "per hour",
+        "/hour",
+        "hourly",
+        "hourly rate",
+        "p/h",
+        "paid per shift",
+        "per shift",
+        "an hour"
+    ]
+
+    if any(keyword in desc for keyword in hourly_keywords):
+        return "Hourly"
+
+    # Couldn't determine
+    return "Unknown"
+
+
+df["salary_type"] = df.apply(get_salary_type, axis=1)
 
 # Create clean folder if needed
 Path("clean").mkdir(exist_ok=True)
 
-# Save cleaned data
+
 df.to_csv(
     "clean/jobs_clean.csv",
     index=False
